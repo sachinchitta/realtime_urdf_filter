@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(urdf_realtime_filter)
+project(realtime_urdf_filter)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   nodelet
   urdf
-  urdfdom_headers
   tf
   resource_retriever
   cv_bridge
